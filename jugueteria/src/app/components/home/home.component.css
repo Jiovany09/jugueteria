@@ -1,8 +1,6 @@
-.banner2 {
-  height: 160px;
-  
-  align-items: center;
-  text-align: center;
+.carousel-inner img {
+    max-width: 2000px;
+    max-height: 1000px;
 }
 
 .banner {
@@ -10,21 +8,21 @@
     
     align-items: center;
     text-align: center;
-  }
+}
 
 /* titulo jugueteria */
-  .fuentetexto {
+.fuentetexto {
     font-family: Arial;
     font-size: 70px;
-  }
+}
 
 /* texto  */
-  .fuenteparrafo {
+.fuenteparrafo {
     font-family: Arial;
     font-size: 20px;
-  }
-  
-  .opacity{
+}
+
+.opacity{
     opacity: 0.5;
-  } 
+} 
 
