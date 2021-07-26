@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pruebas-c9557": {
+      "hosting": {
+        "jugueteria": [
+          "pruebas-c9557"
+        ]
+      }
+    }
+  }
+}
