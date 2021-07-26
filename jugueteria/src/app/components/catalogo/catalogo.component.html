@@ -1,14 +1,15 @@
 <br>
 <div class="row justify-content-center align-self-center">
     <div class="col-sm-9 row">
-        <div class="card border-0 shadow-lg p-3 mb-5" style="width: 18rem" *ngFor="let juguete of juguetesFirebase">
+        <div class="card border-0 shadow-lg p-3 mb-5 ms-2" style="width: 18rem" *ngFor="let juguete of juguetesFirebase">
 
             <img [src]="juguete.data.imagen" class="card-img-top"> 
 
             <div class="card-body" >
                 <h5 class="card-title">{{juguete.data.nombre}}</h5>
                 <p class="card-text">{{juguete.data.descripcion}}</p>
-                <a href="#" class="btn btn-success">Go somewhere</a>
+                <p class="card-text">{{juguete.data.precio}}.00 MXM</p>
+                <p class="card-text">{{juguete.data.tienda}}</p>
             </div>
             
         </div>  
